@@ -9,7 +9,7 @@ buttons.forEach((item) => {
             let word = String(display.innerText)
             display.innerText = word.substring(0, word.length - 1)
         } else if (display.innerText != "" && item.id == "equal"){
-            display.innerText = parseFloat(eval(String(display.innerText))).toFixed(3)
+            display.innerText = eval(String(display.innerText))
         } else if(display.innerText == "" && item.id == "equal"){
             display.innerText = "Null"
             setTimeout(()=>{display.innerText = ""}, 500)
