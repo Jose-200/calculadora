@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./calcular.ico" type="image/x-icon">
+    <title>Calculadora Web</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <table class="case">
+                <tr>
+                    <td class="hidden" colspan="4">
+                        <div id="display">
+                            
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button class="yellow" id="clear">C</button></td>
+                    <td><button class="yellow" id="/">/</button></td>
+                    <td><button class="yellow" id="*">*</button></td>
+                    <td><button class="yellow" id="back">&lt;</button></td>
+                </tr>
+                <tr>
+                    <td><button id="7">7</button></td>
+                    <td><button id="8">8</button></td>
+                    <td><button id="9">9</button></td>
+                    <td><button class="yellow" id="-">-</button></td>
+                </tr>
+                <tr>
+                    <td><button id="4">4</button></td>
+                    <td><button id="5">5</button></td>
+                    <td><button id="6">6</button></td>
+                    <td><button class="yellow" id="+">+</button></td>
+                </tr>
+                <tr>
+                    <td><button id="1">1</button></td>
+                    <td><button id="2">2</button></td>
+                    <td><button id="3">3</button></td>
+                    <td rowspan="2"><button id="equal">=</button></td>
+                </tr>
+                <tr>
+                    <td><button id=".">.</button></td>
+                    <td><button id="0">0</button></td>
+                    <td><button id="00">00</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
